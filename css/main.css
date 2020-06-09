@@ -1,29 +1,83 @@
-* {
-	font-family: 'Montserrat', sans-serif;
+html {
+    font-family: 'Open Sans', sans-serif;
 }
-.bg {
-	background: url('../images/banner.png'), rgba(0,0,0,0.3); 
-	height: 100vh; 
-	width: 100vw; 
-	overflow: hidden; 
-	background-repeat: no-repeat; 
-	background-size: cover; 
-	color: white;	
-	background-blend-mode: multiply;
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000807;
 }
-
-@media (max-width: 1199.98px) {
-
-	.bg {
-		background-position: -900px;
-	}
-	
+.color-primary {
+    color: #3626A7;
 }
+.bg-offwhite {
+    background-color: #FBFBFF;
+}
+a {
+    color: #3626A7;
+}
+a:hover {
+    color: #657ED4;
+}
+.side-list {
+    list-style: none;
+}
+.side-list > li { 
+    list-style-image: url("../images/next.svg");
+} 
 
-@media (max-width: 575.98px) {
-
-	.bg {
-		background-position: -700px;
-	}
-
+.fa {
+    margin-right: 5px;
+    padding: 5px 5px 5px 0px; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    text-decoration: none;
+}
+.btn:focus {
+    box-shadow: none;
+}
+a.btn-gradient {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(130deg, #048BA8, #3626A7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}  
+a.btn-gradient:hover {
+    opacity: 0.8;
+    color: white;
+}  
+.section-title {
+    position: relative;
+    overflow: hidden;
+}
+.section-title::after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid #3626A7;
+}
+.side-bar {
+    position: fixed; 
+    z-index: 99;
+}
+.nav-bar {
+    position: fixed; 
+    right: 0rem;
+}
+@media (max-width: 767.98px) {
+    .side-bar {
+        position: relative; 
+        z-index: 99;
+    }
+    .nav-bar {
+        position: relative;
+    }
 }
