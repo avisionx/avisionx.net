@@ -81,29 +81,18 @@ a.btn-gradient:hover {
         position: relative;
     }
 }
-
-.btn-outline {
-    color: #4fbfa8;
-    background-color: #ffffff;
-    border-color: #4fbfa8;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-  }
   
-  .btn-outline {
-    color: #4fbfa8;
+.btn-outline-main {
+    color: #657ED4;
     background-color: #ffffff;
-    border-color: #4fbfa8;
-    font-weight: bold;
-    border-radius: 0;
-  }
+    border-color: #657ED4;
+}
   
-  .btn-outline:hover,
-  .btn-outline:active,
-  .btn-outline:focus,
-.btn-outline.active {
-    background: #4fbfa8;
+.btn-outline-main:hover,
+.btn-outline-main:active,
+.btn-outline-main:focus,
+.btn-outline-main.active {
+    background: #657ED4;
     color: #ffffff;
-    border-color: #4fbfa8;
-    
+    border-color: #657ED4;    
 }
