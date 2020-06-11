@@ -49,6 +49,24 @@ a.btn-gradient:hover {
     opacity: 0.8;
     color: white;
 }  
+.badge-main {
+    background-color: #657ED4;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(190deg, #468990, #657ED4);
+    color: #FBFBFF;
+}
+.btn-outline-main {
+    color: #657ED4;
+    background-color: #ffffff;
+    border-color: #657ED4;
+}
+.btn-outline-main:hover,
+.btn-outline-main:active,
+.btn-outline-main:focus,
+.btn-outline-main.active {
+    background: #657ED4;
+    color: #ffffff;
+    border-color: #657ED4;    
+}
 .section-title {
     position: relative;
     overflow: hidden;
@@ -80,19 +98,4 @@ a.btn-gradient:hover {
     .nav-bar {
         position: relative;
     }
-}
-  
-.btn-outline-main {
-    color: #657ED4;
-    background-color: #ffffff;
-    border-color: #657ED4;
-}
-  
-.btn-outline-main:hover,
-.btn-outline-main:active,
-.btn-outline-main:focus,
-.btn-outline-main.active {
-    background: #657ED4;
-    color: #ffffff;
-    border-color: #657ED4;    
 }
