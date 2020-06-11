@@ -51,8 +51,10 @@ a.btn-gradient:hover {
 }  
 .badge-main {
     background-color: #657ED4;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(190deg, #468990, #657ED4);
     color: #FBFBFF;
+}
+.badge-main:hover {
+    background-color: #3626A7;
 }
 .btn-outline-main {
     color: #657ED4;
@@ -63,9 +65,9 @@ a.btn-gradient:hover {
 .btn-outline-main:active,
 .btn-outline-main:focus,
 .btn-outline-main.active {
-    background: #657ED4;
+    background: #3626A7;
     color: #ffffff;
-    border-color: #657ED4;    
+    border-color: #3626A7;    
 }
 .section-title {
     position: relative;
@@ -79,6 +81,18 @@ a.btn-gradient:hover {
     width: 100%;
     margin-right: -100%;
     margin-left: 10px;
+    border-top: 1px solid #3626A7;
+}
+.section-sub {
+    position: relative;
+    overflow: hidden;
+}
+.section-sub::before {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 15px;
     border-top: 1px solid #3626A7;
 }
 .side-bar {
