@@ -183,3 +183,6 @@ input:-webkit-autofill {
 #messageContact {
     resize: none;
 }
+.hidden {
+    transition: opacity 0.2s cubic-bezier(.17,.67,.69,.91);
+}
