@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css"/>
-		<link rel="stylesheet" href="css/main_v0.2.css">
+		<link rel="stylesheet" href="css/main_v0.4.css">
 	
 	</head>
 	<body class="container-fluid">
@@ -622,7 +622,7 @@
 					<!-- TECHNOLOGIES START -->
 					<h5 class="section-sub mb-1"> Technologies</h5>
 					<div class="row mt-1">
-						<div class="col-12 pb-3 pb-md-4 mt-2 skills-img-container text-center text-md-left">
+						<div class="col-12 pb-3 pb-md-4 mt-2 skills-img-container text-md-left">
 							<img src="https://cdn.svgporn.com/logos/django.svg" title="django" alt="">
 							<img src="https://cdn.svgporn.com/logos/flutter.svg" title="flutter" alt="">
 							<img src="https://cdn.svgporn.com/logos/c-sharp.svg" title="c-sharp" alt="">
@@ -662,7 +662,7 @@
 					<!-- TOOLS START -->
 					<h5 class="section-sub mb-1"> Tools</h5>
 					<div class="row mt-1">
-						<div class="col-12 pb-3 pb-md-4 mt-2 skills-img-container text-center text-md-left">
+						<div class="col-12 pb-3 pb-md-4 mt-2 skills-img-container text-md-left">
 							<img src="https://cdn.svgporn.com/logos/xampp.svg" title="xampp" alt="">
 							<img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" title="nodejs" alt="">
 							<img src="https://cdn.svgporn.com/logos/pycharm.svg" title="pycharm" alt="">
@@ -698,20 +698,19 @@
 			</div>
 		</div>
 
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
 		<script>
-			$('.scroll').on('click',function(e) {
-				e.preventDefault();
-				var offset = 70;
-				var target = this.hash;
-				if ($(this).data('offset') != undefined) offset = $(this).data('offset');
-				$('html, body').stop().animate({
-					'scrollTop': $(target).offset().top - offset
-				}, 500, 'swing', function() {
-					// window.location.hash = target;
-				});
-			});
+			document.querySelectorAll('.scroll').forEach(item => {
+				item.addEventListener('click', event => {
+					event.preventDefault();
+					var offset = 70,
+						target = item.href.split("#")[1];
+					var topVal = document.getElementById(target).offsetTop - offset;
+					window.scrollTo({
+						top: topVal,
+						behavior: 'smooth'
+					});
+				})
+			})
 		</script>
 		
 	</body>

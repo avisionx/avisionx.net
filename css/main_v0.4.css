@@ -113,7 +113,10 @@ a.btn-gradient:hover {
         position: relative;
     }
 }
+.skills-img-container {
+    text-align: justify;
+}
 .skills-img-container > img {
-    width: 70px;
-    padding: 10px 20px 10px 0;
+    width: 50px;
+    margin: 10px;
 }
