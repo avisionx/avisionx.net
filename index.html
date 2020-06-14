@@ -742,6 +742,9 @@
 					var offset = 70,
 						target = item.href.split("#")[1];
 					var topVal = document.getElementById(target).offsetTop - offset;
+					if(window.innerWidth <= 767.98) {
+						topVal += window.innerHeight + offset;
+					}
 					window.scrollTo({
 						top: topVal,
 						behavior: 'smooth'
