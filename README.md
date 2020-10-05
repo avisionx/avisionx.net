@@ -31,6 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+![DEMO](https://user-images.githubusercontent.com/32339251/84592444-648a4500-ae63-11ea-9285-774fb6e63e89.png)
 
 This is the source code of my personal portfolio website powered by react and gh-pages. Feel free to clone, fork or suggest any features using issues tab.
 
