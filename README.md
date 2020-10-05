@@ -1,17 +1,15 @@
 <p align="center">
   <img src="./public/logo512.png" alt="" width="160" height="160">
-  <h3 align="center">React Starter Template</h3>
+  <h3 align="center">Personal Website Source Code</h3>
   <p align="center"><img src="https://img.shields.io/github/workflow/status/avisionx/portfolio/Build%20and%20Deploy/master?style=flat-square"> <img src="https://img.shields.io/github/issues-raw/avisionx/portfolio?style=flat-square"> <img src="https://img.shields.io/website?url=https://avisionx.github.io/portfolio&style=flat-square"> <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Favisionx%2Fportfolio" alt="Hits"> <img src="https://img.shields.io/github/languages/count/avisionx/portfolio?style=flat-square"> <img src="https://img.shields.io/github/languages/code-size/avisionx/portfolio?style=flat-square"> <img src="https://img.shields.io/github/stars/avisionx/portfolio?style=flat-square"> <img src="https://img.shields.io/github/contributors/avisionx/portfolio?style=flat-square"> <img src="https://img.shields.io/github/license/avisionx/portfolio?style=flat-square"></p>
 
   <p align="center">
-    A basic React Starter Template repository with gh-pages support ✨
+    Source code of my personal portfolio website powered by gh-pages🌐
     </br>
     <a href="https://github.com/avisionx/portfolio/#table-of-contents"><strong>Explore the docs »</strong></a><br/>
-    <a href="https://avisionx.github.io/portfolio">Website</a>
+    <a href="https://avisionx.github.io/portfolio">Project Link</a>
     .
-    <a href="https://github.com/avisionx/portfolio/issues">Report Bug</a>
-    .
-    <a href="https://github.com/avisionx/portfolio/issues">Request Feature</a>
+    <a href="http://avisionx.net/">Live Demo</a>
   </p>
 </p>
 
@@ -34,16 +32,7 @@
 
 ## About The Project
 
-There are a lot of starter templates for React available online, however, I didn't find one that was suitable for my personal needs so I created this one.
-
-Here's the key features added to basic create-react-app:
-
-- Static app with PWA support (feature of create-react-app)
-- Auto Build and Deploy scripts for gh-pages (use master for dev)
-- bootstrap and reactstrap library with custom scss
-- node-sass library for compiling scss
-- react-router-dom for navigation
-- styled-components, material icons library for styling :smile:
+This is the source code of my personal portfolio website powered by react and gh-pages. Feel free to clone, fork or suggest any features using issues tab.
 
 ### Built With
 
@@ -53,7 +42,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-To use this repo as a template [click](https://github.com/avisionx/portfolio/generate) or to get up and running with this project on your local machine follow these simple steps.
+To get up and running with this project on your local machine follow these simple steps.
 
 ### Prerequisites
 
