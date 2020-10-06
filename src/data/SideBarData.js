@@ -4,6 +4,7 @@ import {
   mdiInstagram,
   mdiLinkedin,
   mdiSteam,
+  mdiTwitter,
 } from '@mdi/js';
 
 import SourcererLogo from '../static/sourcerer-logo.svg';
@@ -53,6 +54,11 @@ export const SideBarSocialLinks = [
     link: 'https://sourcerer.io/avisionx',
     title: 'sourcerer',
     logo: SourcererLogo,
+  },
+  {
+    link: 'https://twitter.com/_avisionx',
+    title: 'twitter',
+    path: mdiTwitter,
   },
   {
     link: 'https://www.facebook.com/avisionx',
