@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21ee1e6f1833e6b1d9edb4f6677e29b9",
+    "revision": "e7a5dfa21e607f52930ee0d9b5d9a669",
     "url": "/index.html"
   },
   {
-    "revision": "a6d03ec50520802558d4",
+    "revision": "42e208dc895b39f13298",
     "url": "/static/css/main.e78c34ac.chunk.css"
   },
   {
-    "revision": "9b7b55028824a51a81a7",
-    "url": "/static/js/2.e39eea12.chunk.js"
+    "revision": "61ffc6439d030cc9de7b",
+    "url": "/static/js/2.b75e2054.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.e39eea12.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b75e2054.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6d03ec50520802558d4",
-    "url": "/static/js/main.bd039024.chunk.js"
+    "revision": "42e208dc895b39f13298",
+    "url": "/static/js/main.316a6c58.chunk.js"
   },
   {
     "revision": "b1bbd0e436ea6fac861a",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b43851d8f0f96998f8a802bb45a4d1db",
     "url": "/static/media/snakeblocks.b43851d8.jpg"
+  },
+  {
+    "revision": "19c26af486c8065c2a0087534875ffa2",
+    "url": "/static/media/sourcerer-logo.19c26af4.svg"
   },
   {
     "revision": "acef569109296a2d9f04c1c67f5f7a3f",
