@@ -46,7 +46,18 @@ const SideBar = () => {
               title={data.title}
               className="mr-2 pr-1"
             >
-              <Icon path={data.path} size={1} />
+              {data.path && <Icon path={data.path} size={1} />}
+              {data.logo && (
+                <img
+                  src={data.logo}
+                  alt=""
+                  style={{
+                    height: '1.2rem',
+                    width: '1.2rem',
+                    color: 'inherit',
+                  }}
+                />
+              )}
             </a>
           ))}
         </div>
