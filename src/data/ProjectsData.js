@@ -4,7 +4,7 @@ const LiveWebsitesContent = [
     title: "CRAMS",
     tags: ['django', 'python', 'frontend', 'backend', 'ui/ux'],
     desc:
-      'CoFounder at CRAMS, a course recommendation and management system.',
+      'CoFounder at CRAMS, a course recommendation and management system for IIITD.',
     website: 'http://crams.ml/'
   },
   {
